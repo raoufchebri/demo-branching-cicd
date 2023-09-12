@@ -15,7 +15,7 @@ jobs:
 
     - name: Create a Neon Branch
       id: create-branch
-      uses: neondatabase/create-branch-action@beta
+      uses: neondatabase/create-branch-action@main
       with:
         project_id: round-voice-73097919
         username: raouf
