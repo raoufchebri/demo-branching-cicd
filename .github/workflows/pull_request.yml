@@ -15,14 +15,8 @@ jobs:
 
     - name: Create a Neon Branch
       id: create-branch
-      uses: neondatabase/create-branch-action@beta
+      uses: neondatabase/create-branch-action@main
       with:
         project_id: round-voice-73097919
         username: raouf
         api_key: 7bi2s9d6ozd3pd9pasoxuh3nmn5930fb4q2vmm3mrctpe6rolaxovbfxjis00443
-
-    - name: Display Project ID
-      run: echo "project_id: ${{ steps.create-branch.outputs.project_id }}"
-
-    - name: Display Branch ID
-      run: echo "branch_id: ${{ steps.create-branch.outputs.branch_id }}"
