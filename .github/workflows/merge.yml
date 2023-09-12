@@ -13,6 +13,6 @@ jobs:
     - name: Delete Neon Branch
       uses: neondatabase/delete-branch-by-name-action@main
       with:
-        project_id: soft-rain-10215110
+        project_id: hidden-cloud-87005777
         branch_name: neon-branch
         api_key: ${{ secrets.NEON_API_KEY }}
