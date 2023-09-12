@@ -15,4 +15,4 @@ jobs:
       with:
         project_id: round-voice-73097919
         branch_name: neon-branch
-        api_key: 7bi2s9d6ozd3pd9pasoxuh3nmn5930fb4q2vmm3mrctpe6rolaxovbfxjis00443
+        api_key: ${{ secrets.NEON_API_KEY }}
