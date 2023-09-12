@@ -18,7 +18,7 @@ jobs:
       id: create-branch
       uses: neondatabase/create-branch-action@main
       with:
-        project_id: soft-rain-10215110
+        project_id: hidden-cloud-87005777
         username: raouf
         branch_name: neon-branch
         api_key: ${{ secrets.NEON_API_KEY }}
