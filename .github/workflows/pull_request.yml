@@ -1,4 +1,5 @@
 name: Create Neon Branch with GitHub Actions Demo
+run-name: Create a Neon Branch 🚀
 
 on:
   pull_request:
