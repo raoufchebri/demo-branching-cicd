@@ -8,7 +8,7 @@ on:
 
 jobs:
   delete-neon-branch-by-name:
-    runs-on: ubuntu-latest  # This was missing in your original code
+    runs-on: ubuntu-latest
     steps:
     - name: Delete Neon Branch
       uses: neondatabase/delete-branch-by-name-action@main
